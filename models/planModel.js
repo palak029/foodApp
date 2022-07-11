@@ -1,7 +1,7 @@
 //mongoose ke through connet mongodb
 const mongoose = require("mongoose");
 const db_link =
-  "mongodb+srv://admin:xnDx4jlj5mmzjiVE@cluster0.3irmz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+  "mongodb+srv://Admin:TI4FAedLDtZ1M2RD@cluster0.fo1c8nb.mongodb.net/?retryWrites=true&w=majority";
 mongoose
   .connect(db_link)
   .then(function (db) {
